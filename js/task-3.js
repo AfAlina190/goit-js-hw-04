@@ -1,6 +1,6 @@
 // task-3.js
 
-let profile = {
+const profile = {
     username: "Jacob",
     playTime: 300,
   

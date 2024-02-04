@@ -2,7 +2,7 @@
 
 function isEnoughCapacity(products, containerSize) {
     
-    let totalQuantity = Object.values(products).reduce((acc, quantity) => acc + quantity, 0);
+    const totalQuantity = Object.values(products).reduce((acc, quantity) => acc + quantity, 0);
   
     
     return totalQuantity <= containerSize;
